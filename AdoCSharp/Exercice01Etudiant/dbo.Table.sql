@@ -1,0 +1,9 @@
+﻿CREATE TABLE Etudiant
+(
+	Id INT IDENTITY PRIMARY KEY,
+Nom NVARCHAR(100),
+Prenom NVARCHAR(100),
+NumeroClasse INT,
+DateDiplome DATE
+
+)
