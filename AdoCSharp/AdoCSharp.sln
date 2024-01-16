@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{AFE678A6-6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercices", "Exercices", "{3D5DF3C1-C9F3-4FB8-A8F0-6C1310E72B5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice01Etudiant", "Exercice01Etudiant\Exercice01Etudiant.csproj", "{652926CA-5B34-4050-9635-3F7C17F1E98B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice01Etudiant", "Exercice01Etudiant\Exercice01Etudiant.csproj", "{652926CA-5B34-4050-9635-3F7C17F1E98B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
