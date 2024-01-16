@@ -55,30 +55,19 @@
             string prenom = Console.ReadLine();
 
             Console.Write("Entrez le numéro de classe : ");
-            int numeroClasse;
-            while (!int.TryParse(Console.ReadLine(), out numeroClasse))
-            {
-                Console.Write("Entrez un numéro de classe valide : ");
-            }
+            int numeroClasse = int.Parse(Console.ReadLine());
 
             Console.Write("Entrez la date de diplôme (YYYY-MM-DD) : ");
-            DateTime dateDiplome;
-            while (!DateTime.TryParse(Console.ReadLine(), out dateDiplome))
-            {
-                Console.Write("Entrez une date valide (YYYY-MM-DD) : ");
-            }
+            DateTime dateDiplome = DateTime.Parse(Console.ReadLine());
 
             Etudiant.AjouterEtudiant(nom, prenom, numeroClasse, dateDiplome);
+            Console.WriteLine("Étudiant ajouté avec succès.");
         }
 
         private static void SupprimerEtudiant()
         {
             Console.Write("Entrez l'ID de l'étudiant à supprimer : ");
-            int id;
-            while (!int.TryParse(Console.ReadLine(), out id))
-            {
-                Console.Write("Entrez un ID valide : ");
-            }
+            int id = int.Parse(Console.ReadLine());
 
             Etudiant.SupprimerEtudiant(id);
         }
